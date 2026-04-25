@@ -1,4 +1,4 @@
-package maratonajava.introducao.ExerciciosIntroducao;
+package cursomaratonajava.introducao.ExerciciosIntroducao;
 
 public class Aula05EstruturaCondicionaisExercicio {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package maratonajava.introducao.ExerciciosIntroducao;
+package cursomaratonajava.introducao.ExerciciosIntroducao;
 /*
 prática
 crie variáveis para os campos descritos abaixo entre <> e imprima a seguinte mensagem:
