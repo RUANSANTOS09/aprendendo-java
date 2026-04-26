@@ -16,8 +16,8 @@ O código foi escrito de forma **intencional e verbosa**, priorizando a clareza 
 
 | Módulo | Status |
 |---|---|
-| Introdução ao Java | ✅ Concluído |
-| Introdução a Classes e POO | 🔄 Em andamento |
+| Módulo 1 — Introdução ao Java | ✅ Concluído |
+| Módulo 2 — Introdução a Classes e POO | 🔄 Em andamento |
 
 ---
 
@@ -26,11 +26,18 @@ O código foi escrito de forma **intencional e verbosa**, priorizando a clareza 
 ```
 src/
 └── cursomaratonajava/
-    ├── introducao/               # Fundamentos da linguagem
-    │   ├── ExerciciosIntroducao/ # Exercícios práticos
-    │   └── Aula01 ~ Aula08 ...   # Aulas teóricas com exemplos
+    ├── introducao/                    # Módulo 1 — Fundamentos da linguagem
+    │   └── ExerciciosIntroducao/      # Exercícios práticos do módulo 1
     └── javacore/
-        └── introducaoclasses/    # Introdução à Orientação a Objetos
+        └── introducaoclasses/         # Módulo 2 — Introdução a Classes e POO
+            ├── dominio/               # Classes modelo (Estudante, Professor)
+            ├── exerciciosjavacore/    # Exercícios de classes
+            │   ├── dominioexercicio/  # Classe Carro (exercício)
+            │   └── testexercicio/     # Testes do exercício Carro
+            ├── introducaometodos/     # Introdução a métodos
+            │   ├── dominios/          # Classe Calculadora
+            │   └── test/              # Testes da Calculadora
+            └── test/                  # Testes das classes Estudante e Professor
 ```
 
 ---
@@ -103,9 +110,74 @@ Matrizes (`[][]`) para representar dados em formato de tabela. Uso de loops anin
 
 ---
 
+### 🔄 Módulo 2 — Introdução a Classes e POO
+
+<details>
+<summary><strong>Introdução a Classes — Domínio</strong></summary>
+
+Primeiro contato com a criação de classes em Java e o conceito de **objeto**. Foram criadas as classes modelo `Estudante` e `Professor`, ambas com os atributos `nome` (String), `idade` (int) e `sexo` (char).
+
+Conceitos praticados:
+- Declaração de classes com `public class`
+- Definição de **atributos** (campos) com diferentes tipos
+- Separação entre **classe de domínio** (modelo) e **classe de teste** (onde o `main` roda)
+- Instanciação de objetos com `new`
+- Atribuição e leitura de atributos via notação de ponto (`objeto.atributo`)
+
+</details>
+
+<details>
+<summary><strong>Testes de Classes — Estudante e Professor</strong></summary>
+
+Criação de classes de teste para validar o comportamento das classes de domínio.
+
+- **EstudanteTest01** — Instancia um `Estudante`, define nome, idade e sexo, e imprime os valores
+- **EstudanteTeste02** — Instancia dois objetos `Estudante` independentes, demonstrando que cada objeto tem seu próprio estado em memória
+- **ProfessorTest01** — Instancia um `Professor` com nome "Rogerio", idade 35 e sexo 'M', e imprime os dados formatados
+
+</details>
+
+<details>
+<summary><strong>Exercício de Classes — Carro</strong></summary>
+
+Exercício prático de criação de classes aplicando os conceitos aprendidos.
+
+- **Carro** — Classe de domínio com atributos `nome` (String), `modelo` (String) e `ano` (int)
+- **CarroTestExercicio01** — Instancia dois carros (`Volkswagen Voyage 2017` e `Nissan GT-R 2008`) e imprime os dados de cada um
+
+</details>
+
+<details>
+<summary><strong>Introdução a Métodos — Calculadora</strong></summary>
+
+Introdução ao conceito de **métodos** em Java, usando uma classe `Calculadora` como exemplo prático.
+
+Métodos implementados:
+
+| Método | Retorno | Descrição |
+|---|---|---|
+| `somaDoisNumeros()` | `void` | Soma fixa de 10 + 10 |
+| `subtraiDoisNumeros()` | `void` | Subtração fixa de 21 - 2 |
+| `multiplicaDoisNumeros(int, int)` | `void` | Multiplica dois valores passados como parâmetro |
+| `dividedoisNumeros(double, double)` | `double` | Divide dois números e retorna o resultado |
+| `imprimeDivisaoDeDoisNumeros(double, double)` | `void` | Divide e imprime, tratando divisão por zero |
+
+Conceitos praticados:
+- Métodos `void` (sem retorno) vs métodos com `return`
+- **Parâmetros** — passar valores para dentro do método
+- Uso de `return` em métodos `void` como "break" para interromper execução
+- Tratamento de divisão por zero com `if (num2 != 0)`
+- **CalculadoraTest01** — testa soma e subtração
+- **CalculadoraTest02** — testa multiplicação com parâmetros
+- **CalculadoraTest03** — testa divisão e o tratamento de erro
+
+</details>
+
+---
+
 ## 📝 Exercícios
 
-### 📁 ExerciciosIntroducao
+### 📁 Módulo 1 — ExerciciosIntroducao
 
 | Exercício | Conteúdo | Status |
 |---|---|---|
@@ -120,6 +192,12 @@ Matrizes (`[][]`) para representar dados em formato de tabela. Uso de loops anin
 | `Aula07ArrayExercicioPart02` | Contar números pares em um array | ✅ |
 | `Aula07ArrayExercicioPart03` | Reajustar preços menores que R$ 50 | ✅ |
 | `Aula08ArrayMultidimensionalExercicioPart01` | Percorrer matriz de estoque com loops aninhados | ✅ |
+
+### 📁 Módulo 2 — ExerciciosJavaCore
+
+| Exercício | Conteúdo | Status |
+|---|---|---|
+| `Carro` + `CarroTestExercicio01` | Criar classe com atributos e instanciar dois objetos | ✅ |
 
 ---
 
