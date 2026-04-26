@@ -1,4 +1,4 @@
-package cursomaratonajava.introducao;
+package cursomaratonajava.introducao.Aula01;
 
 /**
  * Esse é um comentário

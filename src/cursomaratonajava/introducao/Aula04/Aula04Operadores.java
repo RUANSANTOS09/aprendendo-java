@@ -1,4 +1,4 @@
-package cursomaratonajava.introducao;
+package cursomaratonajava.introducao.Aula04;
 
 public class Aula04Operadores {
     public static void main(String[] args) {

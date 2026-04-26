@@ -1,4 +1,4 @@
-package cursomaratonajava.introducao;
+package cursomaratonajava.introducao.Aula08;
 
 public class Aula08ArraysMultidimensionaisPart01 {
     public static void main(String[] args) {
