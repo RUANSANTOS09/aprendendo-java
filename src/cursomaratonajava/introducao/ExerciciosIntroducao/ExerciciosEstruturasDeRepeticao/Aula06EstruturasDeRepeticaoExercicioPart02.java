@@ -1,4 +1,4 @@
-package cursomaratonajava.introducao.ExerciciosIntroducao;
+package cursomaratonajava.introducao.ExerciciosIntroducao.ExerciciosEstruturasDeRepeticao;
 
 public class Aula06EstruturasDeRepeticaoExercicioPart02 {
     public static void main(String[] args) {

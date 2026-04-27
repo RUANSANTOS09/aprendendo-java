@@ -1,6 +1,6 @@
-package cursomaratonajava.introducao.ExerciciosIntroducao;
+package cursomaratonajava.introducao.ExerciciosIntroducao.ExerciciosEstruturasCondicionais;
 
-public class Aula05EstruturaCondicionaisExercicio {
+public class Aula05EstruturaCondicionaisExercicioPart01 {
     public static void main(String[] args) {
         double salarioAnual = 36000;
         double primeiraFaixa = 9.70 / 100;
