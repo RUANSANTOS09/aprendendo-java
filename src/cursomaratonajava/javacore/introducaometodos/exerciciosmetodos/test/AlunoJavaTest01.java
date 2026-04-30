@@ -1,6 +1,6 @@
-package cursomaratonajava.javacore.introducaoclasses.introducaometodos.exerciciosmetodos.test;
+package cursomaratonajava.javacore.introducaometodos.exerciciosmetodos.test;
 
-import cursomaratonajava.javacore.introducaoclasses.introducaometodos.exerciciosmetodos.dominio.AlunoJava;
+import cursomaratonajava.javacore.introducaometodos.exerciciosmetodos.dominio.AlunoJava;
 
 public class AlunoJavaTest01 {
     public static void main(String[] args) {

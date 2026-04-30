@@ -1,6 +1,6 @@
-package cursomaratonajava.javacore.introducaoclasses.introducaometodos.test;
+package cursomaratonajava.javacore.introducaometodos.test;
 
-import cursomaratonajava.javacore.introducaoclasses.introducaometodos.dominios.Calculadora;
+import cursomaratonajava.javacore.introducaometodos.dominios.Calculadora;
 /*
  * PASSAGEM DE PARÂMETROS POR VALOR (Pass by Value)
  *

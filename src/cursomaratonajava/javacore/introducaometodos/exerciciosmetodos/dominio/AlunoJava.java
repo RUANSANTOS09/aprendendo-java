@@ -1,4 +1,4 @@
-package cursomaratonajava.javacore.introducaoclasses.introducaometodos.exerciciosmetodos.dominio;
+package cursomaratonajava.javacore.introducaometodos.exerciciosmetodos.dominio;
 
 public class AlunoJava {
     public String nome;

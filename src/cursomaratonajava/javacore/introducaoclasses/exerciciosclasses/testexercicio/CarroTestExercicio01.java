@@ -1,6 +1,6 @@
-package cursomaratonajava.javacore.introducaoclasses.exerciciosjavacore.testexercicio;
+package cursomaratonajava.javacore.introducaoclasses.exerciciosclasses.testexercicio;
 
-import cursomaratonajava.javacore.introducaoclasses.exerciciosjavacore.dominioexercicio.Carro;
+import cursomaratonajava.javacore.introducaoclasses.exerciciosclasses.dominioexercicio.Carro;
 
 public class CarroTestExercicio01 {
     public static void main(String[] args) {

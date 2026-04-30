@@ -1,4 +1,4 @@
-package cursomaratonajava.javacore.introducaoclasses.introducaometodos.dominios;
+package cursomaratonajava.javacore.introducaometodos.dominios;
 
 public class ImpressoraEstudante {
     public void imprime(EstudanteMetodos estudanteMetodos){

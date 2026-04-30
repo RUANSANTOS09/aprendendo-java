@@ -1,6 +1,6 @@
-package cursomaratonajava.javacore.introducaoclasses.introducaometodos.exerciciosmetodos.test;
+package cursomaratonajava.javacore.introducaometodos.exerciciosmetodos.test;
 
-import cursomaratonajava.javacore.introducaoclasses.introducaometodos.exerciciosmetodos.dominio.Produto;
+import cursomaratonajava.javacore.introducaometodos.exerciciosmetodos.dominio.Produto;
 
 public class ProdutoTest01 {
     public static void main(String[] args) {
